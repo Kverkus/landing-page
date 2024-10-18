@@ -20,7 +20,8 @@ div {
 }
 
 .header,
-.hero-section {
+.hero-section,
+.footer {
   background-color: #1F2937;
 }
 
@@ -116,4 +117,10 @@ button {
 .quote-autor {
   font-size: 24px;
   font-weight: 900;
+}
+
+.footer {
+  color: #F9FAF8;
+  text-align: center;
+  padding: 24px;
 }
