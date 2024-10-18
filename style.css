@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  color: #F9FAF8;
+  /* color: #F9FAF8; */
 }
 
 ul {
@@ -21,11 +21,9 @@ div {
 }
 
 .header,
-.block-1 {
+.hero {
   background-color: #1F2937;
 }
-
-/* header */
 
 .header {
   display: flex;
@@ -34,6 +32,7 @@ div {
 }
 
 .title {
+  color: #F9FAF8;
   font-size: 24px;
   font-weight: 900;
 }
@@ -43,16 +42,14 @@ div {
   gap: 24px;
 }
 
-/* block-1 */
-
-.block-1 {
+.hero {
   display: flex;
   justify-content: center;
   padding: 100px;
   gap: 50px;
 }
 
-.block-1-left {
+.hero-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,12 +57,13 @@ div {
   gap: 16px;
 }
 
-.block-1-main-text {
+.hero-main-text {
+  color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
 }
 
-.block-1-secondary-text {
+.hero-secondary-text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -79,4 +77,21 @@ button {
   color: #F9FAF8;
   font-weight: 900;
   font-size: 16px;
+}
+
+.cards-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  text-align: center;
+  color: dimgray;
 }
