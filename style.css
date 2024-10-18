@@ -3,7 +3,6 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  /* color: #F9FAF8; */
 }
 
 ul {
@@ -21,7 +20,7 @@ div {
 }
 
 .header,
-.hero {
+.hero-section {
   background-color: #1F2937;
 }
 
@@ -42,7 +41,7 @@ div {
   gap: 24px;
 }
 
-.hero {
+.hero-section {
   display: flex;
   justify-content: center;
   padding: 100px;
@@ -94,4 +93,27 @@ button {
   margin-top: 50px;
   text-align: center;
   color: dimgray;
+  margin-bottom: 150px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  gap: 8px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  width: 500px;
+  text-align: center;
+}
+
+.quote-autor {
+  font-size: 24px;
+  font-weight: 900;
 }
